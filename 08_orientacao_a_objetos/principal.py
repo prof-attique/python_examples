@@ -1,4 +1,8 @@
-from modelos import Aluno, Produto, Carro
+try:
+    from modelos import Aluno, Produto, Carro
+except ImportError:
+    from .modelos import Aluno, Produto, Carro
+
 
 if __name__ == "__main__":
     a1 = Aluno()

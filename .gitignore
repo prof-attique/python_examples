@@ -1,6 +1,15 @@
-*.pyc
-/__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.class
+
+# Caches and environments
 .venv/
-.mypy_cache
-.pypyenv
+.mypy_cache/
+.pypyenv/
+.ipynb_checkpoints/
+
+# Exercicios e correções
 exercicio_final/correcoes/
+10_projetos_e_exercicios/exercicio_final/correcoes/
