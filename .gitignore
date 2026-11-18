@@ -3,4 +3,5 @@
 .venv/
 .mypy_cache
 .pypyenv
+.kilo
 exercicio_final/correcoes/
